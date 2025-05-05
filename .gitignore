@@ -64,10 +64,10 @@ coverage.xml
 # Streamlit cache
 .streamlit/
 
-# Data and vector stores
-/data/
-!data/default_knowledge.pdf
-!data/default_knowledge_faiss/
+# # Data and vector stores
+# /data/
+# !data/default_knowledge.pdf
+# !data/default_knowledge_faiss/
 
 # Logs
 *.log
