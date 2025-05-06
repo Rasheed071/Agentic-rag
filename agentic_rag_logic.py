@@ -1,5 +1,8 @@
 # agentic_rag_logic.py
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import streamlit as st
 from typing import List, Dict, Optional, TypedDict, Union, Any, Tuple
 from langchain_core.documents import Document

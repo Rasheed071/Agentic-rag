@@ -1,10 +1,14 @@
 # app.py
 
+from dotenv import load_dotenv
+load_dotenv()
+# Import necessary libraries
+
+
 import os
 import streamlit as st
 import time
 from typing import Any, List, Union
-from dotenv import load_dotenv
 
 # --- Import logic and components ---
 from utils.file_processor import extract_text_from_files, get_text_chunks

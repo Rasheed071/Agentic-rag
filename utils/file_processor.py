@@ -1,5 +1,8 @@
 # utils/file_processor.py
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import streamlit as st
 import pandas as pd
 from PyPDF2 import PdfReader

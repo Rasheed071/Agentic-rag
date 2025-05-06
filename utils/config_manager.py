@@ -1,5 +1,8 @@
 # utils/config_manager.py
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import json
 import logging
